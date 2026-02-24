@@ -1,8 +1,8 @@
 import axios, { AxiosError } from 'axios';
 import * as qs from 'qs';
 
-const OK_LOGIN_ENDPOINT = 'https://app.orderkuota.com/api/v2/login';
-const OK_GET_ENDPOINT = 'https://app.orderkuota.com/api/v2/get';
+const OK_LOGIN_ENDPOINT = 'https://app.orderkuota.com:443/api/v2/login';
+const OK_GET_ENDPOINT = 'https://app.orderkuota.com:443/api/v2/get';
 
 const OK_HEADERS = {
   'User-Agent': 'okhttp/4.12.0',
